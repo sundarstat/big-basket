@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    /* background-color: antiquewhite; */
+}
+
+.landing{
+    background-image: url(IMG/img12.jpg.png);
+    background-size:cover;
+    background-position:center;
+    height: 150vh;
+
+ 
+    
+}
+header a{
+    text-decoration: none;
+    color: orangered;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+
+}
+#logo
+{
+    flex: 3;
+    font-size:70px;
+}
+nav {
+    flex: 2;
+    display: flex;
+    margin-left: 150px;
+}
+nav a{
+    flex: 1;
+    font-size:22px
+}
+nav a:hover{
+    color: black;
+}
+
+.gallery
+ {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.gallery-item 
+{
+    margin: 10px;
+    padding: 40px;
+}
+
+.abc{
+    display: flex;
+}
+
+.gallery img
+ {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+    border-color: #00d78182;
+}
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: chartreuse;
+    border: turquoise;
+    
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #039a5a;
+}
+.button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color:blueviolet;
+    border: turquoise;
+    
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover
+{
+    background-color: blue;
+}
+
+
