@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing{
+    background-image: url(IMG/pexels\ 1.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    text-decoration: none;
+    color: orangered;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+
+}
+#logo
+{
+    flex: 3;
+    font-size:70px;
+}
+nav {
+    flex: 2;
+    display: flex;
+    margin-left: 150px;
+}
+nav a{
+    flex: 1;
+    font-size:x-large;
+    
+}
+nav a:hover{
+    color: black;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    justify-content: center;
+    padding: 2em;
+    
+}
+.tagline1{
+    color: whitesmoke;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.tagline2{
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: bold;
+}
+.call{
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+}
+.maintext div {
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 8px;
+    padding: .6em;
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+
+.maintext button a{
+    text-decoration:  none;
+}
